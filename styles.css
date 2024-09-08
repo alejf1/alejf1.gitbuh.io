@@ -580,3 +580,28 @@ footer p {
     opacity: 1;
     visibility: visible;
 }
+
+/* Pantallas chicas */
+
+@media (max-width: 768px) {
+    .icon-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        margin-bottom: 20px; /* Añade espacio entre los íconos */
+    }
+}
+
+@media (max-width: 768px) {
+    .icon i {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px 10px;
+    }
+}
