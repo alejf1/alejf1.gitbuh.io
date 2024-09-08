@@ -57,7 +57,7 @@ body {
 
 /* Hero Section con imagen de fondo */
 .hero {
-    background: url('main/rehabilitacion-bg.png') no-repeat center center/cover;
+    background: url('/root/rehabilitacion-bg.png') no-repeat center center/cover;
     height: 100vh;
     position: relative;
     display: flex;
